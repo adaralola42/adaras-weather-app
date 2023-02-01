@@ -1,0 +1,100 @@
+.container {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-image: url("../weatherbackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+.search-bar {
+  margin-top: 60px;
+  padding: 3px;
+  padding-right: 100px;
+  margin-right: 10px;
+  border-color: #4b4d48;
+}
+button {
+  color: white;
+  background-color: #64362d;
+  padding: 1px 20px;
+  border-color: #4b4d48;
+  font-size: 20px;
+}
+button:hover {
+  background-color: #ca7c4b;
+  transition: ease-in-out;
+  border-color: #4b4d48;
+}
+.current-city {
+  display: block;
+  margin-left: 450px;
+  margin-top: -37px;
+}
+.top-umbrella {
+  font-size: 50px;
+}
+h1 {
+  font-size: 70px;
+  font-weight: 600;
+  margin-left: -3px;
+}
+h2 {
+  margin-top: 10px;
+  margin-bottom: 1px;
+  font-size: 42px;
+  font-weight: 400;
+}
+h3 {
+  font-size: 14px;
+}
+h4 {
+  font-size: 70px;
+  font-weight: 900;
+  margin-top: 40px;
+  margin-bottom: -30px;
+}
+.units {
+  display: block;
+  font-size: 20px;
+  margin-top: 25px;
+  text-decoration: none;
+  color: white;
+}
+.units a {
+  text-decoration: none;
+  color: white;
+}
+.units a:hover {
+  color: #ca7c4b;
+}
+
+.right-side-info {
+  position: relative;
+  top: -320px;
+  left: 900px;
+  margin-top: 40px;
+  font-weight: 300;
+}
+.right-side-info-under {
+  position: relative;
+  top: -320px;
+  left: 900px;
+  font-weight: 700;
+  font-size: 25px;
+}
+.col-2 {
+  margin-top: -200px;
+  font-size: 15px;
+  font-weight: 300;
+}
+.col-temperature {
+  font-size: 20px;
+  font-weight: 900;
+  font-size: 35px;
+}
