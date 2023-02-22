@@ -98,3 +98,18 @@ h4 {
   font-weight: 900;
   font-size: 35px;
 }
+.bottom-link-sentence {
+  font-size: 10px;
+  color: white;
+}
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
